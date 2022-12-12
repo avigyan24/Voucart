@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(84, 67, 67) !important;
+}
+
+.form-control{
+    width: 40rem!important;
+}
+.navbar{
+    margin: 0px!important;
+    padding:0px !important;
+    padding-bottom: 10px !important;
+}
+span{
+    font-family: Ink Free !important;
+    font-size: large !important;
+}
+.Voucart{
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+}
+.container-fluid{
+    background-color:rgb(84, 67, 67)!important;
+}
+
+.btn{
+    border-color: goldenrod !important;
+    color: goldenrod !important;
+}
+.btn:hover{
+    background-color: rgb(95, 77, 32) !important;
+}
+.navbar-text{
+    display: inline ;
+    margin: 0px 85px 0px 85px !important;
+    color: goldenrod !important;
+}
+.items{
+    margin-top: 25px;
+    text-align:left !important;
+}
+
+.text-center {
+    text-align:left !important;
+}
+.Product{
+    margin: 10px 0px;
+    text-align: left !important;
+}
+.row{
+    margin: 20px !important;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voucart</title>
+    <link rel="shortcut icon" href="images/favicon.ico" width="10px" type="image/x-icon">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar ">
+        <div class="container-fluid">
+          <img class="Voucart" src="images/Voucart_nb_logo.jpg" alt="">
+          <form class="d-flex" role="search">
+            <input class="form-control me-4" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+          <nav class="navbar ">
+            <form class="container-fluid justify-content-start">
+              <button class="btn btn-outline-success me-4" type="button">Login</button>
+              <button class="btn btn-outline-success me-4" type="button">Sign up</button>
+            </form>
+          </nav>
+        </div>
+      </nav>
+
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link active " aria-current="page" href="index.html">    <span class="navbar-text">
+                    Home
+                  </span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">    <span class="navbar-text">About</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">    <span class="navbar-text">Filter</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">    <span class="navbar-text">Sort by</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">    <span class="navbar-text"> Help & support</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">    <span class="navbar-text">Contact us</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+        <!--Corousel-->
+      <div class="Corousel" >
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/Corousel1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Corousel1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Corousel1.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!--Products Listed-->
+      <div class="items">
+        <div class="container text-center">
+          <div class="Product">
+          <img  src="images/boat.jpg" alt="">
+          <p style="background-color: goldenrod; display: inline;">BOAT</p>
+          <div class="row align-items-end">
+            <div class="col">
+              <img src="images/boat1.jpg" alt="">
+            </div>
+            <div class="col">
+              <img src="images/boat2.jpg" alt="">
+            </div>
+            <div class="col">
+              <img src="images/boat3.jpg" alt="">
+            </div>
+            <div class="col">
+              <img src="images/boat4.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="Product">
+          <img src="images/hp.jpg" alt="">
+          <p style="background-color: goldenrod; display: inline;">HP</p>
+          <div class="row align-items-end">
+            
+            <div class="col">
+              <img src="images/hp1.jpg" alt="">
+            </div>
+            <div class="col">
+              <img src="images/hp2.jpg" alt="">
+            </div>
+            <div class="col">
+              <img src="images/hp3.jpg" alt="">
+            </div>
+            <div class="col">
+              <img src="images/hp4.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>  
+</body>
+</html>
