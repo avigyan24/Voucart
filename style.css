@@ -1,5 +1,7 @@
 body{
-    background-color: rgb(84, 67, 67) !important;
+    background-color: rgba(73,66,66,255) !important;
+    padding: 0px;
+    margin: 0px;
 }
 
 .form-control{
@@ -10,6 +12,7 @@ body{
     padding:0px !important;
     padding-bottom: 10px !important;
 }
+
 span{
     font-family: Ink Free !important;
     font-size: large !important;
@@ -17,18 +20,31 @@ span{
 .Voucart{
     margin-left: 0px !important;
     padding-left: 0px !important;
+    
 }
 .container-fluid{
-    background-color:rgb(84, 67, 67)!important;
+    background-color:rgba(58,57,56,255)!important;
+    padding: 0px !important;
+    margin: 0px !important;
 }
+.collapse {
+    background-color: rgba(73,66,66,255) !important;
+    width: 100% !important;
+}
+#upper-navbar{
+    padding-bottom: 0px !important;
+}
+
 .nav-link:active{
     font-weight: bolder !important;
     color: gold;
+    text-decoration: underline gold!important;
 
 }
-.nav-link:hover{
-    font-weight: bolder !important;
-    color: gold;
+
+.searchbox{
+    width: 800px!important;
+    height: 35px;
 }
 
 
@@ -40,9 +56,15 @@ span{
     background-color: rgb(95, 77, 32) !important;
 }
 .navbar-text{
-    display: inline ;
+    display: block ;
     margin: 0px 85px 0px 85px !important;
-    color: goldenrod !important;
+    color: gold !important;
+}
+.nav-link:hover{
+    text-decoration: underline gold!important;
+    
+    color: gold;
+   
 }
 .items{
     margin-top: 25px;
