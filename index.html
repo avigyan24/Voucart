@@ -9,33 +9,38 @@
     <!-- CSS only -->
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    
+    
+    <!-- Font Awesome CSS -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    
 </head>
 <body>
-    <nav class="navbar ">
+  <!--upper Navbar begins-->
+    <nav class="navbar  " id="upper-navbar">
         <div class="container-fluid">
           <img class="Voucart" src="images/Voucart_nb_logo.jpg" alt="">
-          <form class="d-flex" role="search">
-            <input class="form-control me-4" type="search" placeholder="Search your need" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+          
+        <!-- Actual search box -->                              
+              <input class="searchbox" type="text" placeholder="&#xF002; Search" style="font-family:Arial, FontAwesome" />       
+
           <nav class="navbar ">
             <form class="container-fluid justify-content-start">
               <button class="btn btn-outline-success me-4" type="button">Login</button>
               <button class="btn btn-outline-success me-4" type="button">Sign up</button>
             </form>
-          </nav>
+     
+
+          
         </div>
       </nav>
-
-      <nav class="navbar navbar-expand-lg ">
+      <nav class="navbar navbar-expand-lg " id="lower-navbar">
         <div class="container-fluid">
           
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ">
               <li class="nav-item">
-                <a class="nav-link active " aria-current="page" href="index.html">    <span class="navbar-text">
-                    Home
-                  </span></a>
+                <a class="nav-link active " aria-current="page" href="">    <span class="navbar-text">Home</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link " href="#">    <span class="navbar-text">About</span></a>
@@ -56,6 +61,7 @@
           </div>
         </div>
       </nav>
+      
         <!--Corousel-->
       <div class="Corousel" >
         <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
